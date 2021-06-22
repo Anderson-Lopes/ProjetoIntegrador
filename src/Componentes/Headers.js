@@ -27,34 +27,24 @@ const Headers = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/Componentes/Animais/animais">Animais</NavLink>
+              <NavLink href="/animais">Animais</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">Sobre</NavLink>
+              <NavLink href="/animais.js">Sobre</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Categorias
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Anfíbios
-                </DropdownItem>
-                <DropdownItem>
-                  Répteis
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href='/cadastro'>Cadastre-se</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href='/login'>Login</NavLink>
+            </NavItem>
+
           </Nav>
-          <NavbarText>Login</NavbarText>
+
         </Collapse>
       </Navbar>
     </div>
-  );
-}
+  )
+};
 
 export default Headers;
