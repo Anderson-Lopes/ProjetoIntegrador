@@ -1,9 +1,38 @@
 *{
+  background: transparent;
   margin-left: 5px;
-  margin-right: 0px;
+  margin-right: 5px;
 }
+
+
+body{
+  background-image: linear-gradient(to bottom right, rgb(17, 0, 255), rgb(105, 230, 182));
+  background-attachment:fixed;
+}
+
+.cardBody{
+  background-image: linear-gradient(to bottom, rgb(75, 233, 43), rgb(116, 189, 60), black);  
+   background-clip: text;
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   color: black;
+  font-family: 'Kirang Haerang', cursive;
+}
+.cabeçalho{
+    font-family: 'Viaoda Libre', cursive;
+    color: black;
+  };
+
+.NavBrand{
+    color: black;
+    };
+
 .col{
-align-items: center;
+  align-items: rigth;
+}
+
+.d-flex{
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(175, 172, 172));
 }
 
 .fotodog {
@@ -15,29 +44,22 @@ align-items: center;
   height: 143px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textoSobre{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: justify;
+  color: rgb(43, 61, 41);
+}
+.texh3{
+  text-align: center;
+  color: aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Form{
+  width: 80%;
 }
 
 .App-link {
+  
   color: #61dafb;
 }
 

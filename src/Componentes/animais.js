@@ -1,16 +1,22 @@
 import React from 'react';
 import { Button } from 'reactstrap';
+import Header from './Headers';
 
 const Animais = (props) => {
   return (
-  <div>
-      <h3>Animais</h3>
-        
-      <p>Vamos incluir seu animalzinho perdinho aqui?</p>
+    <>
+    <Header/>
+    <div className="container">
 
-      {/* <a href="" <button type="button" class="btn btn-primary"></button></a> */}
-      <Button color="primary" onClick='../animais/cadastroanimais' >Cadastrar Animal perdido</Button>{' '}
-</div>
+        <h2>Animais</h2>
+
+        <p>Bem Vindo! Que tal Cadastrar-mos o animal perdido?</p>
+
+        <p>Um copo com água e um pote de ração não se nega a nenhum pet, não é mesmo?</p>
+        <Button color='secondary' href="/animais/cadastropet">Cadastrar Animal Perdido</Button>{''}
+        {/* <button type='submit' className="btn btn-primary" href="..">Cadastrar Animal perdido</button> */}
+    </div>
+    </>
   )};
 
 export default Animais;

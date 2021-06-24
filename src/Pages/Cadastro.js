@@ -1,12 +1,13 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input,FormFeedback, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
 import Header from '../Componentes/Headers';
 
 const Cadastro = (props) => {
   return (
 <>
     <Header/>
-    <Form className='Form'>
+    <div className='Form'>
+    <Form className='Forma'>
         <FormGroup>
             <Label for="exampleNome">Nome</Label>
             <Input type="text" name="nome" placeholder="Seu Nome aqui Por Favor" />
@@ -30,9 +31,10 @@ const Cadastro = (props) => {
             Confirmo os Termos
             </Label>
         </FormGroup>
-
+        <br></br>
         <Button color='success'>Fazer parte deste Mundo Pet</Button>
     </Form>
+    </div>
 </>
   )
 };

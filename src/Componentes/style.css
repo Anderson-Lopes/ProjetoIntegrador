@@ -1,0 +1,17 @@
+.cabeçalho{
+    font-family: 'Viaoda Libre', cursive;
+};
+
+.text-info{
+    font-family: 'Kirang Haerang', cursive;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.container{
+    align-items: flex-end;
+}
+
+.Row{
+    width:30%
+}
+

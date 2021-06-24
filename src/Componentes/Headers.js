@@ -6,12 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  NavLink
 } from 'reactstrap';
 
 const Headers = (props) => {
@@ -20,8 +15,8 @@ const Headers = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="light" light expand="md">
+    <div >
+      <Navbar dark expand="md">
         <NavbarBrand href="/">Achadinho Pet's</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -30,7 +25,7 @@ const Headers = (props) => {
               <NavLink href="/animais">Animais</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/animais.js">Sobre</NavLink>
+              <NavLink href="/sobre">Sobre</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href='/cadastro'>Cadastre-se</NavLink>

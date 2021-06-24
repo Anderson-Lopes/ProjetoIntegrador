@@ -6,8 +6,10 @@ import {history} from '../History';
 import Public from '../Pages/Public';
 import Login from '../Pages/Login';
 import Home from '../Pages/Home';
+import Sobre from '../Pages/Sobre';
 import Cadastro from '../Pages/Cadastro';
 import Animais from '../Componentes/animais';
+import CadastroPet from '../Pages/CadastroAnimal';
 import NotFound from '../Pages/NotFound';
 
 
@@ -18,6 +20,8 @@ const Root = () => (
                     <Route exact path="/home" component={Home}/>
                     <Route path="/cadastro" component={Cadastro}/>
                     <Route path="/animais" component={Animais}/>
+                    <Route path="/animais/cadastropet" component={CadastroPet}/>
+                    <Route path="/sobre" component={Sobre}/>
                     <Route  path="/login" component={Login}/>
                     <Route  path="/notfound" component={NotFound}/>
                     
