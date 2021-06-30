@@ -7,11 +7,8 @@
     font-family: 'Viaoda Libre', cursive;
 }
 
-.container{
-    align-items: flex-end;
-}
 
-.Row{
-    width:30%
+.pet{
+    max-width: 100%;
+    align-items: initial;
 }
-

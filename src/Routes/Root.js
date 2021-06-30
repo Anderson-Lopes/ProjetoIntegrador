@@ -14,19 +14,18 @@ import NotFound from '../Pages/NotFound';
 
 
 const Root = () => (
-            <Router history={ history }>
-                <Switch>
-                    <Route exact path="/" component={Public}/>
-                    <Route exact path="/home" component={Home}/>
-                    <Route path="/cadastro" component={Cadastro}/>
-                    <Route path="/animais" component={Animais}/>
-                    <Route path="/animais/cadastropet" component={CadastroPet}/>
-                    <Route path="/sobre" component={Sobre}/>
-                    <Route  path="/login" component={Login}/>
-                    <Route  path="/notfound" component={NotFound}/>
-                    
-                </Switch>
-            </Router>
+        <Router history={ history }>
+            <Switch>
+                <Route exact path="/" component={Public}/>
+                <Route path="/home" component={Home}/>
+                <Route path="/cadastro" component={Cadastro}/>
+                <Route path="/animais" component={Animais}/>
+                <Route path="/criar" component={CadastroPet}/>
+                <Route path="/sobre" component={Sobre}/>
+                <Route path="/login" component={Login}/>
+                <Route path="/notfound" component={NotFound}/>                    
+            </Switch>
+        </Router>
 );
 
 export default Root;

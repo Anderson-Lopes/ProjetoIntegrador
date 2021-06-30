@@ -1,13 +1,28 @@
 *{
   background: transparent;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 
 body{
   background-image: linear-gradient(to bottom right, rgb(17, 0, 255), rgb(105, 230, 182));
   background-attachment:fixed;
+}
+
+.infoDog{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.imgEsp{
+  width: 100%;
+  margin-left: 0em;
+  margin-top: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
 }
 
 .cardBody{
@@ -28,7 +43,7 @@ body{
     };
 
 .col{
-  align-items: rigth;
+  align-items: center;
 }
 
 .d-flex{
@@ -38,10 +53,6 @@ body{
 .fotodog {
   width: 626px;
   height: 290px;
-}
-.imgEsp {
-  width: 214px;
-  height: 143px;
 }
 
 .textoSobre{
@@ -56,6 +67,7 @@ body{
 
 .Form{
   width: 80%;
+  padding-right: 2px;
 }
 
 .App-link {

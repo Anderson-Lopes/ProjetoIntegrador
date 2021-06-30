@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import Header from '../Componentes/Headers';
 
 
@@ -8,7 +9,7 @@ const Sobre = () => (
         <h3 className="texh3">Achadinhos’Pet</h3>
         <br></br><br></br><br></br><br></br>
         <div className="textoSobre">
-            
+            <Container>  
             <h4>Um grupo de jovens com o interesse em aplicar seus conhecimentos no Curso Web Full Stack na empresa Digital House, teve esta ideia em criar uma aplicação simples com o intuito em auxiliar Pets que possam estar perdidos de seus tutores, seja por um susto que levou em decorrência de fogos de artifico, seja por uma força da natureza solicitando reprodução ou até mesmo por força de terceiros deseducados que vem a furtar o seu pet.<br></br>
                 
                 Este grupo pensando sempre na evolução e no aprimoramento deseja sempre estar em evolução deste aplicativo para melhor auxiliar aos pets e a você nobre humano que tem muito carinho e amor pelos animais sejam ele pequenos ou grandes.<br></br><br></br>
@@ -18,6 +19,7 @@ const Sobre = () => (
                 Agradecimento especial a Julia Ramos, Pedro Braga, Allan Barbosa, Leonardo Magalhaes que sempre estiveram dando seu apoio constante nesta linda etapa.<br></br>
                 Equipe Achadinhos’Pet agradece a você usuário por apoiar esta aplicação.
             </h4>
+            </Container>  
         </div>        
 
     </>

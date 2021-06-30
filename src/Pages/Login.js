@@ -1,13 +1,14 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Container, Form, FormGroup, Label, Input } from 'reactstrap';
 import Header from '../Componentes/Headers';
 
 const Login = (props) => {
   return (
-    <>
-        <Header/>
-        <div className='Form'>        
-        <Form>
+  <>
+    <Header/><br></br><br></br><br></br>
+    <div className='Form'>
+      <Container className='Form'>        
+      <Form>
         <FormGroup>
             <Label for="exampleEmail">Email</Label>
             <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
@@ -18,10 +19,11 @@ const Login = (props) => {
         </FormGroup>
         <br></br><br></br>
 
-        <Button>Submit</Button>
-        </Form>
-        </div>
-    </>
+        <Button color="success" href="/home">Junte-se ao time dos Heróis pelos Animais</Button>
+      </Form>
+      </Container>
+    </div>
+  </>
   );
 }
 
